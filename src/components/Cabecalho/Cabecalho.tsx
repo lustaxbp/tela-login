@@ -4,7 +4,7 @@ function Cabecalho(){
 
     return (
         <header className={estilo.cabecalho}>
-            <img src={logotipo} alt="logotipo" />
+            <img src={logotipo} alt= "logotipo" />
             <a href="#">login</a>
         </header>
     );

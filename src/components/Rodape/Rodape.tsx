@@ -4,7 +4,7 @@ function Rodape(){
     return (
         <footer className={estilo.rodape}>
             <p> Desenviolvido por Luís Otávio Bordin </p>
-            <p>Copyright</p>
+            <p>@Copyright</p>
         </footer>
     );
 }
