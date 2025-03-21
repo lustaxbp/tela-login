@@ -9,14 +9,17 @@
     align-items: center;
 }
 
-.cabecalho h1{
-    color: var(--branco-suave);
-    margin-left: 5%;
+.cabecalho img{
+  height: 100%;
+  margin-right: 1010px;
+  margin-left: 3px;
+
 }
 
 .cabecalho a {
     color: var(--branco-suave);
-    margin-right: 5%;
+    margin-right: 10px;
+    margin-left: 6px;
     font-size: 1.5rem;
     text-decoration: none;
 }
