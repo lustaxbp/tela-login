@@ -9,10 +9,9 @@
     align-items: center;
 }
 
-.cabecalho img{
+.imgLogo,
+.imgLogo img{
   height: 100%;
-  margin-right: 1010px;
-  margin-left: 3px;
 
 }
 
