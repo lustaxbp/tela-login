@@ -1,0 +1,57 @@
+/* Centralizar tudo */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 70vh;
+    padding: 20px;
+}
+
+/* Caixa que contém a tabela */
+.tabelaWrapper {
+    width: 80%;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Configuração da tabela */
+.tabela {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+/* Estilizar cabeçalho */
+.p-datatable thead {
+    background-color: #004c75;
+    color: white;
+    font-weight: bold;
+}
+
+/* Adicionar bordas nas células */
+.p-datatable th,
+.p-datatable td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+}
+
+/* Alternar cores das linhas para melhor leitura */
+.p-datatable tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Efeito ao passar o mouse */
+.p-datatable tbody tr:hover {
+    background-color: #e0e0e0;
+}
+
+/* Centralizar a paginação */
+.p-paginator {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
